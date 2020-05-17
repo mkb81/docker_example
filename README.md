@@ -1,7 +1,7 @@
 # Just a small Docker example
 
-This is hust a test how to understand [Docker](www.docker.com)  
-and how how to setup PyCharm IDE for the development.
+This is just to understanding [Docker](www.docker.com)  
+and how to setup PyCharm IDE for the development.
 
 ## Using
 
