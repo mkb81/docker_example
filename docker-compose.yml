@@ -1,7 +1,5 @@
 version: '3'
 services:
   test:
-    image: marc
-    command: python3 my_script.py
-    volumes:
-      - ./source:/usr/src/marc
+    image: counter
+    command: python3 app.py
