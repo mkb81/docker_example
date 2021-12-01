@@ -1,22 +1,27 @@
 # Just a small Docker example
 
 This is just to understanding [Docker](www.docker.com)  
-and how to setup PyCharm IDE for the development.
+and how to use [PyCharm IDE](https://www.jetbrains.com/pycharm/) for the development.
+
+The Docker image based on
+* Alpine 3.14 Linux
+* Python 3.9.8
 
 ## Using
 
 ### Create Docker image
 
-Clone this repro on your local computer then 
-you will find the Dockerfile inside the docker sub folder.
+Clone this repo to your local computer. After that go to folder
 
-To build a new Docker image type the following command in path /docker_example
+    /<path to the repro>/docker_example
+
+Build new Docker image type the following console command
 
     docker build -t counter:latest -f docker/Dockerfile .
     
 the build process can take some time.
 
-If the build process is successful you can check your new Docker image
+If the build process is successful then check your new Docker image
 
     docker images
 
@@ -35,3 +40,8 @@ You can start the Docker image with this command
 or with
     
     docker-compose up
+
+
+## Known issues
+
+At time there is no colored output if the image is start with **docker-compose up**
