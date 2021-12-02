@@ -4,7 +4,7 @@ This is just to understanding [Docker](www.docker.com)
 and how to use [PyCharm IDE](https://www.jetbrains.com/pycharm/) for the development.
 
 The Docker image based on
-* Alpine 3.14 Linux
+* Alpine Linux 3.14
 * Python 3.9.8
 
 ## Using
@@ -13,7 +13,7 @@ The Docker image based on
 
 Clone this repo to your local computer. After that go to folder
 
-    /<path to the repro>/docker_example
+    /<path to the repo>/docker_example
 
 Build new Docker image type the following console command
 
